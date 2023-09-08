@@ -35,8 +35,12 @@
 }
 
 .sidebarOption > p {
-    /* display: none; */
+    display: none;
     font-weight: 300;
+}
+
+.sidebarOption__selected > p {
+    display: inline !important;
 }
 
 .sidebarOption > p:hover {
