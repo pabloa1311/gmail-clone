@@ -5,6 +5,7 @@ import SideBar from "./components/SideBar";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Mail from "./components/Mail";
 import EmailList from "./components/EmailList";
+import SendMail from "./components/SendMail";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,7 @@ function App() {
 
         <RouterProvider router={router} />
       </main>
+      <SendMail />
     </div>
   );
 }
